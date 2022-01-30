@@ -1,0 +1,10 @@
+@import 'variables';
+
+.header {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.5rem;
+  #icon {
+    font-size: 5rem;
+  }
+}
