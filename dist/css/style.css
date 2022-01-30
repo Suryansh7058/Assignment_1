@@ -1,15 +1,32 @@
-.header {
+nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  margin-top: 1.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.header #icon {
+nav #icon {
   font-size: 5rem;
+}
+
+nav .nav__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav .primary-navigation {
+  list-style: none;
+}
+
+nav .primary-navigation > li > a {
+  -webkit-margin-end: 3rem;
+          margin-inline-end: 3rem;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */

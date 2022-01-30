@@ -1,10 +1,22 @@
 @import 'variables';
 
-.header {
+nav {
   display: flex;
-  flex-direction: row;
-  margin-top: 1.5rem;
+  align-items: center;
   #icon {
     font-size: 5rem;
+  }
+  & .nav__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .primary-navigation {
+    list-style: none;
+
+    & > li > a {
+      margin-inline-end: 3rem;
+      text-decoration: none;
+    }
   }
 }

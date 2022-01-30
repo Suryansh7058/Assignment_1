@@ -18,18 +18,55 @@
     <title>Admin Dashboard</title>
   </head>
   <body>
-    <header class="header">
-      <i id="icon" class="fas fa-dove fa-lg navbar-brand"></i>
-      <nav>
-        <ul class="primary-navigation d-flex">
-          <li>Home</li>
-          <li>Management</li>
-          <li>Students</li>
-          <li>Staff</li>
-          <li>Examination</li>
-          <li>Examination</li>
-        </ul>
-      </nav>
-    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><i id="icon" class="fas fa-dove fa-lg"></i
+        ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarColor01"
+          aria-controls="navbarColor01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="primary-navigation navbar-nav me-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link active">
+                Home <span class="visually-hidden">(current)</span></a
+              >
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link"> Staff</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"> Students</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"> Examination</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"> Management</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"> Payments</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-sm-2"
+              type="text"
+              placeholder="Search"
+            />
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
   </body>
 </html>
